@@ -40,6 +40,6 @@ http.createServer((request,response)=>{
             response.end(`<h2>40404040404040404</h2>`)
         }
     
- }).listen(80,'127.0.0.1',()=>{
+ }).listen(80,'node-apache.github.io',()=>{
     console.log('success');
 })
